@@ -12,4 +12,5 @@ public class Reader {
         this.surname = surname;
         this.email = email;
     }
+
 }

@@ -1,4 +1,4 @@
-package pl.anikiel.sqlwyzwanie;
+package pl.anikiel.sqlwyzwanie.repository;
 
 import java.sql.*;
 import java.util.Properties;

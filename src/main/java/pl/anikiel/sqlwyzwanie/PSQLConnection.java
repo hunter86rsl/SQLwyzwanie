@@ -5,12 +5,7 @@ import java.util.Properties;
 
 public class PSQLConnection {
 
-    public PSQLConnection() {
-
-    }
-
-
-    public Connection getConnecton() throws SQLException {
+    public static Connection getConnecton() throws SQLException {
         String url = "jdbc:postgresql://127.0.0.1:5432/sqlwyzwanie";
         Properties props = new Properties();
         props.setProperty("user", "adrian");

@@ -1,4 +1,4 @@
-package pl.anikiel.sqlwyzwanie;
+package pl.anikiel.sqlwyzwanie.model;
 
 import java.time.LocalDate;
 
@@ -7,15 +7,15 @@ public class History {
     int bookId;
     int readerId;
     LocalDate dateOfBorrowing;
-    LocalDate datoOfBorrowing;
+    LocalDate dateOfReturning;
     boolean isBorrowed;
 
-    public History(int id, int bookId, int readerId, LocalDate dateOfBorrowing, LocalDate datoOfBorrowing, boolean isBorrowed) {
+    public History(int id, int bookId, int readerId, LocalDate dateOfBorrowing, LocalDate dateOfReturning, boolean isBorrowed) {
         this.id = id;
         this.bookId = bookId;
         this.readerId = readerId;
         this.dateOfBorrowing = dateOfBorrowing;
-        this.datoOfBorrowing = datoOfBorrowing;
+        this.dateOfReturning = dateOfReturning;
         this.isBorrowed = isBorrowed;
     }
 }

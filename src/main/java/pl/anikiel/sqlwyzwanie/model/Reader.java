@@ -1,4 +1,4 @@
-package pl.anikiel.sqlwyzwanie;
+package pl.anikiel.sqlwyzwanie.model;
 
 public class Reader {
     int i;

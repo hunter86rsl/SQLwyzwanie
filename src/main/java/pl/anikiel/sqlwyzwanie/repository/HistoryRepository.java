@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HistoryRepository {
-    private static List<History> histories = new ArrayList<>();
+    private List<History> histories = new ArrayList<>();
 
-    public static void initHistory() {
+    public void initHistory() {
         String sql = "SELECT * FROM history";
 
         try (Connection conn = PSQLConnection.getConnecton();

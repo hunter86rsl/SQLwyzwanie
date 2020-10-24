@@ -10,9 +10,9 @@ import java.util.List;
 
 public class ReaderRepository {
 
-    private static List<Reader> readers = new ArrayList<>();
+    private List<Reader> readers = new ArrayList<>();
 
-    public static void initReaders() {
+    public void initReaders() {
         String sql = "SELECT * FROM readers";
 
         try (Connection conn = PSQLConnection.getConnecton();

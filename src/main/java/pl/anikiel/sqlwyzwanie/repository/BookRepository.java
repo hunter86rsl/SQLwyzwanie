@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookRepository {
-    private static List<Book> books = new ArrayList<>();
+    private List<Book> books = new ArrayList<>();
 
-    public static void initBooks() {
+    public void initBooks() {
 
         String sql = "SELECT * FROM books";
 
